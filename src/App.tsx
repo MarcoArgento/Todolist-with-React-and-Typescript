@@ -43,9 +43,21 @@ function App() {
   }
 
   return (
-    <div>
-      <h1>TODO LIST</h1>
+    <div
+      id="container"
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        position: "relative",
+        width: "100%",
+        height: "100%",
+      }}
+    >
+      <h1 style={{ position: "absolute", top: "0%" }}>TODO LIST</h1>
       <div
+        id="cont-todo"
         style={{
           display: "flex",
           justifyContent: "center",
