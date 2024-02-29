@@ -67,7 +67,7 @@ function App() {
       >
         <TextField
           id="outlined-basic"
-          label="Outlined"
+          label="Scrivi compito"
           variant="outlined"
           value={input}
           onChange={ReadTodoAdd}
