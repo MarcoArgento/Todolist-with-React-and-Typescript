@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "./dist/index.html",
+  "homepage": "./dist",
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
